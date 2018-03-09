@@ -63,15 +63,11 @@
             var abs = Math.abs(scrolled - prevscroll) / 5;
             if (scroll == -1) {
                 if (menu.offsetTop < 0)
-                    menu.style.top = menu.offsetTop + abs + 'px';
-                else
-                    menu.style.top = '0px';
+                    menu.style.top = (menu.offsetTop + abs >= 0) ? '0px' : menu.offsetTop + abs + 'px';
             }
             if (scroll == 1) {
                 if (menu.offsetTop > -200)
-                    menu.style.top = menu.offsetTop - abs + 'px';
-                else
-                    menu.style.top = '-200px';
+                    menu.style.top = (menu.offsetTop - abs <= -200) ? '-200px' : menu.offsetTop - abs + 'px';
             }
             prevscroll = scrolled;
         }
