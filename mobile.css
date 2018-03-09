@@ -5,16 +5,12 @@ body{
 }
 
 #menu{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
     height: 150px;
     background-color: #ff0000;
-}
-#menu.fixed{
-    position: fixed;
-    top: -100px;
 }
 #menu .top{
 
