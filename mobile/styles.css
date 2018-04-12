@@ -1,0 +1,45 @@
+@font-face {
+    font-family: AGZeppelin;
+    src: url('AGZeppelin_Oblique_.ttf');
+}
+
+*{
+    font-family: 'AGZeppelin', 'Arial';
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#title{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    background: url('./wallpapers/wallpaper1.jpg');
+    background-size: cover;
+    z-index: 2;
+}
+#name{
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: calc(50% - 50px);
+    height: 100px;
+    width: 100%;
+    padding: 0px;
+    color: #fff;
+    line-height: 100px;
+    font-size: 70px;
+    background-color: rgba(0, 0, 51, 0.7);
+    text-align: center;
+}
+#text{
+    position: static;
+    margin-top: 100vh;
+    padding: 5px;
+    text-align: justify;
+    background-color: #000066;
+    color: #fff;
+    font-size: 20px;
+}
