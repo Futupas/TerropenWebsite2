@@ -43,3 +43,20 @@ body{
     color: #fff;
     font-size: 20px;
 }
+
+a,
+a:link,
+a:visited,
+a:visited:link{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover,
+a:active,
+a:focus,
+a:visited:hover,
+a:visited:active,
+a:visited:focus{
+    text-decoration: none;
+    color: #fff !important;
+}
