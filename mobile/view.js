@@ -6,6 +6,7 @@ window.onscroll = function (e) {
     document.getElementById('name').style.top = top + 'px';
     document.getElementById('name').style.backgroundColor = 'rgba(0, 0, 51, '+map(s)+')';
     // console.log(map(s));
+    document.getElementById('name').innerText = window.innerHeight+'px';
 }
 function map(value){
     var newval = value / (value < window.innerHeight ? window.innerHeight : value);
