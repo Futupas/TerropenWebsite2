@@ -1,7 +1,8 @@
+var wh = window.innerHeight;
 window.onscroll = function (e) {
     var s = window.pageYOffset;
-    var top = s < window.innerHeight-100 ? 
-        (window.innerHeight / 2 - 50) - (s / 2) :
+    var top = s < wh-100 ? 
+        (wh / 2 - 50) - (s / 2) :
         0;
     document.getElementById('name').style.top = top + 'px';
     document.getElementById('name').style.backgroundColor = 'rgba(0, 0, 51, '+map(s)+')';
