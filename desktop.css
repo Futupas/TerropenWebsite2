@@ -148,8 +148,9 @@ body{
 }
 
 .view1{
-    background: url('./view1_background.jpg') no-repeat center;
+    background: url('./view1_background_desktop.jpg') no-repeat center;
     background-size: cover;
+    font-family: Arial, 'Times New Roman';
 }
 .view1 > div.title{
     position: absolute;
@@ -157,7 +158,7 @@ body{
     height: calc((100vh - 100px) * 0.3);
     line-height: calc((100vh - 100px) * 0.3);
     font-size: calc((100vh - 100px) * 0.1);
-    color: #000;
+    color: #fff;
     width: 100vw;
     text-align: center;
 }
@@ -165,17 +166,17 @@ body{
     position: absolute;
     top: calc((100vh - 100px) * 0.6);
     height: calc((100vh - 100px) * 0.1);
-    line-height: calc((100vh - 100px) * 0.1);
     font-size: calc((100vh - 100px) * 0.03);
-    color: #000;
+    color: #fff;
     width: 100vw;
     text-align: right;
     transform: translateX(calc((100vh - 100px) * -0.03));
 }
 
 .view2{
-    background: url('./view2_background.jpg') no-repeat center;
-    background-size: cover;
+    font-family: Arial, 'Times New Roman';
+    /* background: url('./view2_background.jpg') no-repeat center;
+    background-size: cover; */
     text-align: center;
 }
 .view2 > div.title{
@@ -184,16 +185,16 @@ body{
     font-size: calc((100vh - 100px) * 0.06);
     margin-left: 15vw;
     width: 70vw;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 
 .view3{
     background: url('./view3_background.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .view4{
     background: url('./view4_background.jpg') no-repeat center;
-    background-size: contain;
+    background-size: cover;
 }
