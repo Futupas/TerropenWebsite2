@@ -75,6 +75,7 @@ body{
     width: calc(100vw / 3);
     height: calc((100vh - 100px) / 3);
     transform-origin: center center;
+    overflow: hidden;
 }
 
 .cells > div > .side1{
@@ -108,6 +109,34 @@ body{
 }
 
 
+.cell1 > div > div{
+    transform: translate(calc(100vw / -3 * 0), calc((100vh - 100px) / -3 * 0));
+}
+.cell2 > div > div{
+    transform: translate(calc(100vw / -3 * 1), calc((100vh - 100px) / -3 * 0));
+}
+.cell3 > div > div{
+    transform: translate(calc(100vw / -3 * 2), calc((100vh - 100px) / -3 * 0));
+}
+.cell4 > div > div{
+    transform: translate(calc(100vw / -3 * 0), calc((100vh - 100px) / -3 * 1));
+}
+.cell5 > div > div{
+    transform: translate(calc(100vw / -3 * 1), calc((100vh - 100px) / -3 * 1));
+}
+.cell6 > div > div{
+    transform: translate(calc(100vw / -3 * 2), calc((100vh - 100px) / -3 * 1));
+}
+.cell7 > div > div{
+    transform: translate(calc(100vw / -3 * 0), calc((100vh - 100px) / -3 * 2));
+}
+.cell8 > div > div{
+    transform: translate(calc(100vw / -3 * 1), calc((100vh - 100px) / -3 * 2));
+}
+.cell9 > div > div{
+    transform: translate(calc(100vw / -3 * 2), calc((100vh - 100px) / -3 * 2));
+}
+
 
 .view{
     display: none;
@@ -117,6 +146,8 @@ body{
     left: 0px;
     width: 100vw;
     height: calc(100vh - 100px);
+    background: url('./view1_background.jpg') no-repeat center;
+    background-size: cover;
 }
 .view1 > div.title{
     position: absolute;
