@@ -165,12 +165,11 @@ body{
     position: absolute;
     top: calc((100vh - 100px) * 0.6);
     height: calc((100vh - 100px) * 0.1);
-    line-height: calc((100vh - 100px) * 0.1);
     font-size: calc((100vh - 100px) * 0.03);
     color: #000;
-    width: 100vw;
+    width: 80vw;
+    padding-left: 10vw;
     text-align: right;
-    transform: translateX(calc((100vh - 100px) * -0.03));
 }
 
 .view2{
@@ -180,7 +179,7 @@ body{
 }
 .view2 > div.title{
     position: absolute;
-    top: calc((100vh - 100px) * 0.4);
+    top: calc((100vh - 100px) * 0.15);
     font-size: calc((100vh - 100px) * 0.06);
     margin-left: 15vw;
     width: 70vw;

@@ -8,20 +8,20 @@ function AnimateCell(angle, cellnumber){
     }, 100);
 }
 
-// var interval = setInterval(function(){
-//     currentangle--;
-//     AnimateCell(currentangle, 1);
-// }, 8000);
+var interval = setInterval(function(){
+    currentangle--;
+    AnimateCell(currentangle, 1);
+}, 8000);
 
 document.body.onclick = function (e) {
     currentangle--;
     AnimateCell(currentangle, 1);
 
-    // clearInterval(interval);
-    // interval = setInterval(function(){
-    //     currentangle--;
-    //     AnimateCell(currentangle, 1);
-    // }, 8000);
+    clearInterval(interval);
+    interval = setInterval(function(){
+        currentangle--;
+        AnimateCell(currentangle, 1);
+    }, 8000);
 }
 
 var view1 = document.querySelector('.view.view1').cloneNode(true);
