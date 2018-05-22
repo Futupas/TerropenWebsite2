@@ -14,13 +14,6 @@ body{
     height: 100px;
     background-color: #000;
 }
-.view{
-    position: fixed;
-    top: 100px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-}
 .cells{
     z-index: 2;
     position: fixed;
@@ -112,4 +105,14 @@ body{
     transform: translate3d(calc((100vw / 3) - ((100vh - 100px) / 6)), 0px, 0px) rotateY(270deg);
     width: calc((100vh - 100px) / 3);
     height: calc((100vh - 100px) / 3);
+}
+
+
+
+.view{
+    position: fixed;
+    top: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
