@@ -31,3 +31,10 @@ var sides1 = document.querySelectorAll('.cells > div > .side1');
 for (var i = 0; i < sides1.length; i++) {
     sides1[i].appendChild(view1.cloneNode(true));
 }
+var view2 = document.querySelector('.view.view2').cloneNode(true);
+view2.style.display = 'block';
+document.querySelector('.view.view2').remove();
+var sides2 = document.querySelectorAll('.cells > div > .side2');
+for (var i = 0; i < sides2.length; i++) {
+    sides2[i].appendChild(view2.cloneNode(true));
+}

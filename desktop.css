@@ -140,12 +140,16 @@ body{
 
 .view{
     display: none;
+    /* z-index: 6; */
     background-color: #fff;
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100vw;
     height: calc(100vh - 100px);
+}
+
+.view1{
     background: url('./view1_background.jpg') no-repeat center;
     background-size: cover;
 }
@@ -170,3 +174,20 @@ body{
     text-align: right;
     transform: translateX(calc((100vh - 100px) * -0.03));
 }
+
+.view2{
+    background: url('./view2_background.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.view2 > div.title{
+    position: absolute;
+    top: calc((100vh - 100px) * 0.4);
+    font-size: calc((100vh - 100px) * 0.06);
+    margin-left: 15vw;
+    width: 70vw;
+    color: #000;
+    text-align: center;
+}
+
+
