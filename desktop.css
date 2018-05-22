@@ -79,20 +79,20 @@ body{
 }
 
 .cells > div > .side1{
-    background-color: #00f;
+    background-color: #000;
     transform: translate3d(0px, 0px, calc((100vh - 100px) / 6)) rotateX(0deg);
 }
 .cells > div > .side2{
-    background-color: #0f0;
+    background-color: #000;
     transform: translate3d(0px, calc((100vh - 100px) / -6), 0px) rotateX(90deg);
 }
 .cells > div > .side3{
-    background-color: #f00;
+    background-color: #000;
     transform: translate3d(0px, 0px, calc((100vh - 100px) / -6)) rotateX(180deg);
     
 }
 .cells > div > .side4{
-    background-color: rgb(234, 0, 255);
+    background-color: #000;
     transform: translate3d(0px, calc((100vh - 100px) / 6), 0px) rotateX(270deg);
 }
 .cells > div > .left{
@@ -190,4 +190,13 @@ body{
     text-align: center;
 }
 
+.view3{
+    background: url('./view3_background.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.view4{
+    background: url('./view4_background.jpg') no-repeat center;
+    background-size: contain;
+}
 

@@ -38,3 +38,17 @@ var sides2 = document.querySelectorAll('.cells > div > .side2');
 for (var i = 0; i < sides2.length; i++) {
     sides2[i].appendChild(view2.cloneNode(true));
 }
+var view3 = document.querySelector('.view.view3').cloneNode(true);
+view3.style.display = 'block';
+document.querySelector('.view.view3').remove();
+var sides3 = document.querySelectorAll('.cells > div > .side3');
+for (var i = 0; i < sides3.length; i++) {
+    sides3[i].appendChild(view3.cloneNode(true));
+}
+var view4 = document.querySelector('.view.view4').cloneNode(true);
+view4.style.display = 'block';
+document.querySelector('.view.view4').remove();
+var sides4 = document.querySelectorAll('.cells > div > .side4');
+for (var i = 0; i < sides4.length; i++) {
+    sides4[i].appendChild(view4.cloneNode(true));
+}
